@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_infoTasa"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/info_tasa"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="6dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/cantidadTasa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="999.505.031,09 Bs.S"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/fecha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="01/01/2020, 01:20 p.m."
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_weight="8"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/porcentaje"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="12,75555%"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="@+id/cambio" />
+
+            <ImageView
+                android:id="@+id/cambio"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_arrow_drop_up_24px" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+        />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

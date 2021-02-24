@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3989D3</color>
+    <color name="colorSecondary">#39d383</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="rosado">#B5EA8080</color>
+    <color name="rojo">#EA0C0C</color>
+    <color name="bars">#3A8AD3</color>
+</resources>
