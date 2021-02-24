@@ -2,7 +2,7 @@ Desarrollo de la aplicación FamilyComputer
 
 Integrantes:
 
-Yennifer Catañeda Caña
+Yennifer Catañeda Caña :3 
 
 Jose Miguel Cruz Silverio
 
